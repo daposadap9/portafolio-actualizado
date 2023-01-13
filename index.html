@@ -25,7 +25,7 @@
                     d="M369.6 176.3H255.8v45.4h109.6M361.3 268.2H255.8v45.4h56l-5.3 59-50.7 13.6v47.2l93-25.8" />
                 </svg>
             <div id="navMenu" class="navbar__menu">
-                <button class="btn--close">x</button>
+                <button id="btnClose" class="btn btn--close">x</button>
                 <ul class="navbar__list">
                     <li class="navbar__item">
                         <a href="#" class="navbar__link">Home</a>
@@ -43,11 +43,15 @@
                         <a href="#miPortafolio" class="navbar__link">Mi portafolio</a>
                     </li>
                     <li class="navbar__item">
-                        <a href="" class="navbar__link">Contacto</a>
+                        <a href="#contact" class="navbar__link">Contacto</a>
                     </li>
                 </ul>
             </div>
-            <button id="btnOpen" class="btn btn--toggle">open</button>
+            <button id="btnOpen" class="btn btn--toggle"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 12H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M3 6H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M3 18H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg></button>
             </nav>
             
     </header>
@@ -157,7 +161,7 @@
             <img class="ultimaImagen" src="img/image 11.jpg" alt="">
         </div>
     </section>
-    <section  id="contacto" class="contacto">
+    <section  id="contact" class="contacto">
         <div class="tarjeta-footer">
             <h1 style="color: #fff; font-size: 40px;">Contacto</h1>
             <div class="contacto-flex">

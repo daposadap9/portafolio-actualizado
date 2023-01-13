@@ -11,6 +11,7 @@ body{
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 body::-webkit-scrollbar {
     width: 10px;
@@ -64,6 +65,7 @@ header{
 
 .navbar{
     height: 60px;
+    max-width: 1024px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -97,6 +99,7 @@ color: orange;
         height: 100%;
         background: #242635;
         box-shadow: 0 5px 15px rgba(233, 0, 0, 0.5);
+        transition: .3 ease-in-out;
     }
     
     header{
