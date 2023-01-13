@@ -3,15 +3,15 @@ const navMenu = document.getElementById('navMenu')
 const btnClose = document.getElementById('btnClose')
 
 btnOpen.onclick = () => {
-navMenu.classList.toggle('show--menu')
+  navMenu.classList.toggle('show--menu')
 }
 
 document.querySelector('.navbar__list').addEventListener('click', (e) => {
-if (e.target.classList.contains('navbar__link')) {
+  if (e.target.classList.contains('navbar__link')) {
     navMenu.classList.remove('show--menu')
-}
+  }
 })
 
 btnClose.onclick = () => {
-navMenu.classList.remove('show--menu')
+  navMenu.classList.remove('show--menu')
 }
